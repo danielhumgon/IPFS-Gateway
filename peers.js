@@ -18,7 +18,8 @@ async function getPeerArray() {
 
     if (LOCAL) {
       peerArray = [
-
+        "/ip4/64.225.123.247/tcp/4002/p2p/QmUzcb6LfLnh86xyLWFKzQEhSu4KykZqjZ4vbEiNgdiXfm",
+        "/ip4/64.225.123.247/tcp/4002/ipfs/QmUzcb6LfLnh86xyLWFKzQEhSu4KykZqjZ4vbEiNgdiXfm"
       ];
 
       return peerArray;
